@@ -17,7 +17,8 @@ import javax.swing.JPanel;
  * @author LAB-2
  */
 public class Ventana0301a extends JFrame {
-    private final List<JPanel> jPanelList;
+    
+    private List<JPanel> jPanelList;
 
     public Ventana0301a(String title) throws HeadlessException {
         super(title);
